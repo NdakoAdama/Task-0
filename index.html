@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<article class="profile-card" data-testid="test-profile-card">
+    <header>
+        <h2 data-testid="test-user-name">Ndako Adama</h2>
+    </header>
+    <div class="card-content">
+        <figure>
+            <img 
+            data-testid="test-user-avatar"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uBS00k2qgQXtME_9qvHjMOsBkCSypTJ2ng&s"
+            alt="profile-picture"/>
+        </figure>
+        <div class="text-content">
+            <p data-testid="test-user-bio">I am a passionate Frontend Developer dedicated to creating responsive, user-centered web applications. I’m currently advancing my skills to become a professional Fullstack Developer, with the goal of building complete, efficient, and scalable digital products. </p>
+            <p data-testid="test-user-time" id="current-time">Time:</p>
+            <nav>
+                <ul data-testid="test-user-social-links">
+                    <li>
+                        <a data-testid="test-user-social-twitteer"
+                        href="https://twitter.com/Adarrmah"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        >Twitter</a>
+                    </li>
+                     <li>
+                        <a data-testid="test-user-social-linkedin"
+                        href="https://www.linkedin.com/in/ndako-adama-b92233220/"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        >Linkedin</a>
+                    </li>
+                      <li>
+                        <a data-testid="test-user-social-github"
+                        href="https://github.com/NdakoAdama/"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        >Github</a>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Reading</li>
+                    <li>Writing codes</li>
+                    <li>travelling</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Long meetings</li>
+                    <li>Broken codes</li>
+                    <li>unstable internet</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
