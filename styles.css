@@ -51,3 +51,145 @@
 }
 }
 
+
+
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #2d2d2d;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  background: #3a3a3a;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.3);
+}
+
+.error {
+  color: #ff6b6b;
+  margin-top: 6px;
+  font-size: 0.9em;
+  min-height: 1.2em;
+}
+
+.success {
+  display: none;
+  background: #2e7d32;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 32px;
+  color: #343a40;
+}
+
+section {
+  margin-bottom: 32px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #4CAF50;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #2c7a32;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #495057;
+}
+
+/* Optional: subtle hover effect */
+section:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #218838;
+}
